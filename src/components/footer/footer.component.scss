@@ -1,0 +1,18 @@
+.nav-links{
+    cursor: pointer;
+}
+
+.info_links a.nav-links {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Default text color */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.info_links a.nav-links:hover {
+    // color: #00bbf0; /* Change to your desired hover color */
+    color:#006bde;
+}
+
+.info_section .info_contact .contact_link_box a:hover {
+    color: #006bde;
+}
